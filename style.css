@@ -10,3 +10,17 @@
     margin: 20px;
     padding: 10px;
 }
+
+.bottoni{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 50px;
+
+}
+.azzurro{
+    background-color: rgb(114, 179, 253);
+    border: #fff dotted 1px;  
+    color: white;
+}
+

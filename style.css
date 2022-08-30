@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .intestazione{
-    display: inline;
+    display: inline-block;
 }
 .logo{
     margin: 20px;
@@ -12,7 +12,6 @@
 }
 
 .bottoni{
-    text-align: center;
     margin: 20px;
     padding: 20px;
     border: 50px;
@@ -25,4 +24,18 @@
 }
 .margin{
     margin: 20px;
+}
+
+/* Seleziona TUTTI gli <ul> all'interno di TUTTE le classi "lista" */
+.lista ul {
+    list-style: none;
+}
+.spunta{
+color: rgb(57, 200, 57);
+}
+.croce{
+color: red;
+}
+p{
+    display: inline-block;
 }

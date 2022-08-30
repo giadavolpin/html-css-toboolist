@@ -14,7 +14,9 @@
     margin-right: 12px;
     vertical-align: middle; 
 }
-
+.conteiner{
+margin: 100px;
+}
 .bottoni{
     margin: 20px;
     padding: 20px;

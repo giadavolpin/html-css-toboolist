@@ -14,18 +14,27 @@
     margin-right: 12px;
     vertical-align: middle; 
 }
-.conteiner{
-margin: 100px;
+body{
+background-color:lightcyan;
+}
+.white{
+    background-color: #ffffff;
+}
+main{
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 10px;
 }
 .bottoni{
     margin: 20px;
     padding: 20px;
     border: 50px;
+    border-bottom: 2px solid lightcyan;
 
 }
 .azzurro{
     background-color: rgb(114, 179, 253);
-    border: #fff dotted 1px;  
+    border-color:rgb(114, 179, 253) ; 
     color: white;
     padding: 10px;
     border-radius: 4px;
@@ -54,4 +63,12 @@ color: red;
 }
 p{
     display: inline-block;
+}
+.editorial{
+    background-color: rgb(114, 179, 253);
+    border-color:rgb(114, 179, 253) ; 
+    color: white;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 8px;
 }

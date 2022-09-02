@@ -15,7 +15,7 @@
     vertical-align: middle; 
 }
 body{
-background-color:lightcyan;
+background-color:rgb(73, 234, 234);
 }
 .white{
     background-color: #ffffff;
@@ -26,10 +26,8 @@ main{
     border-radius: 10px;
 }
 .bottoni{
-    margin: 20px;
     padding: 20px;
-    border: 50px;
-    border-bottom: 2px solid lightcyan;
+    border-bottom: 2px solid rgb(69, 234, 234);
 
 }
 .azzurro{
@@ -39,6 +37,11 @@ main{
     padding: 10px;
     border-radius: 4px;
     
+}
+.contenuto{
+    margin: 20px;
+    border-bottom: 20px;
+
 }
 .bianco{
     background-color: white;
@@ -57,9 +60,17 @@ main{
 }
 .spunta{
 color: rgb(57, 200, 57);
+border: 1px rgb(57, 200, 57) solid;
+border-radius: 50%;
+width: 24px;
+text-align: center;
 }
 .croce{
 color: red;
+border: 1px red solid;
+border-radius: 50%;
+width: 24px;
+text-align: center;
 }
 p{
     display: inline-block;
